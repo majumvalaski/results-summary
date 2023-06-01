@@ -12,11 +12,23 @@ main {
 }
 td.result {
     padding: 100px 100px 100px 100px;
-    background-color:hsl(228, 45%, 44%);
+    background-image:linear-gradient(to bottom, hsl(240, 73%, 65%), hsl(228,45%,44%));
     border-radius: 20px;
     
+}
+.result h1{
+    color: white;
+    font-size: 30px;
 }
 .summary h1{
     color: black;
     font-size: 30px;
 }
+
+button {
+    background-color:hsl(240, 3%, 18%);
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+}
+
