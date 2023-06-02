@@ -15,17 +15,20 @@ td.result {
     padding: 30px 100px 30px 100px;
     background-image:linear-gradient(to bottom, hsl(240, 73%, 65%), hsl(228,45%,44%));
     border-radius: 20px;
+    font-family: "Kumbh Sans";
     
 }
 div.score {
     border-radius: 50%; /* Use 50% para criar um círculo perfeito */
     border: 2px solid rgb(188, 177, 177);
     padding: 20px;
+    font-family: "Kumbh Sans";
 }    
 
 div.score a.highlighted{
     color: whitesmoke;
     font-size: 70px;
+    font-family: "Kumbh Sans";
 }
 /*.score a.highlighted {
     Estilos para destacar o valor "76" 
@@ -37,10 +40,12 @@ p.highlighted {
 .result h1{
     color: white;
     font-size: 20px;
+    font-family: "Kumbh Sans";
 }
 .summary h1{
     color: black;
     font-size: 30px;
+    font-family: "Kumbh Sans";
 }
 
 button {
@@ -48,6 +53,7 @@ button {
     color: white;
     padding: 10px 50px 10px 50px;
     border-radius: 20px;
+    font-family: "Kumbh Sans";
 }
 
 nav.reaction {
