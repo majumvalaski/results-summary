@@ -23,6 +23,8 @@ div.score {
     border: 2px solid rgb(188, 177, 177);
     padding: 20px;
     font-family: "Kumbh Sans";
+    display: flex;
+    align-items: center;
 }    
 
 div.score a.highlighted{
@@ -32,11 +34,18 @@ div.score a.highlighted{
 }
 /*.score a.highlighted {
     Estilos para destacar o valor "76" 
-}
-  
-p.highlighted {
-    /* Estilos para destacar o texto "Great" 
 }*/
+  
+.highlighted {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: "Kumbh Sans";
+    display: flex;
+    align-items: center;
+    
+    /* Estilos para destacar o texto "Great"*/ 
+}
+
 .result h1{
     color: white;
     font-size: 20px;
@@ -46,6 +55,7 @@ p.highlighted {
     color: black;
     font-size: 30px;
     font-family: "Kumbh Sans";
+
 }
 
 button {
@@ -56,9 +66,24 @@ button {
     font-family: "Kumbh Sans";
 }
 
-nav.reaction {
-    display: flex;
-    align-items: center;
-    padding: 10px 10px 10px 10px;
-  }
 
+.reaction a span,
+.memory a span {
+  display: flex;
+  align-items: center;
+}
+
+.reaction a span::before,
+.memory a span::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url(./images/icon-reaction.svg);
+  /* Ajuste a largura, altura e imagem do ícone conforme necessário */
+}
+
+.memory a span::before {
+  background-image: url(./images/icon-memory.svg);
+}
