@@ -10,10 +10,20 @@ main {
     padding:120px 120px 120px 440px;
     
 }
-td.result {
+td.result { 
+    /* lado esquerdo da tabela */
     display:inline-block;
     padding: 30px 100px 30px 100px;
     background-image:linear-gradient(to bottom, hsl(240, 73%, 65%), hsl(228,45%,44%));
+    border-radius: 20px;
+    font-family: "Kumbh Sans";
+    
+}
+td.summary { 
+    /* lado direito da tabela */
+    display:inline-flexbox;
+    padding: 30px 100px 30px 100px;
+    background-image:linear-gradient(to right, rgb(252, 252, 252), rgba(223, 231, 231, 0.97));
     border-radius: 20px;
     font-family: "Kumbh Sans";
     
