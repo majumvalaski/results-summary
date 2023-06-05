@@ -66,24 +66,44 @@ button {
     font-family: "Kumbh Sans";
 }
 
-
-.reaction a span,
-.memory a span {
-  display: flex;
-  align-items: center;
+ul {
+    list-style-type: none;
 }
 
-.reaction a span::before,
-.memory a span::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  background-image: url(./images/icon-reaction.svg);
-  /* Ajuste a largura, altura e imagem do ícone conforme necessário */
-}
+.summary li {
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px; /* Espaçamento à esquerda para acomodar o ícone */
+  }
+  
+  .iconReaction {
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px;  
+    
+  } 
 
-.memory a span::before {
-  background-image: url(./images/icon-memory.svg);
-}
+  .iconMemory {
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px;  
+    
+  }
+
+  .iconVerbal {
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px;  
+    
+  } 
+  
+  .iconVisual {
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px;  
+    
+  } 
