@@ -1,4 +1,4 @@
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; } /*texto do final */
 
 body {
     width: 1440px;
@@ -68,42 +68,42 @@ button {
 
 ul {
     list-style-type: none;
+    padding: 0; /* Remover o espaçamento interno da lista */
 }
 
+.summary {
+    text-align: left; /* Alinhar à esquerda */
+}
+  
 .summary li {
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 30px; /* Espaçamento à esquerda para acomodar o ícone */
-  }
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
   
-  .iconReaction {
-    display: inline-block;
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px;  
-    
-  } 
-
-  .iconMemory {
-    display: inline-block;
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px;  
-    
-  }
-
-  .iconVerbal {
-    display: inline-block;
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px;  
-    
-  } 
+.summary li .iconReaction,
+.summary li .iconMemory,
+.summary li .iconVerbal,
+.summary li .iconVisual {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
   
-  .iconVisual {
-    display: inline-block;
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px;  
-    
-  } 
+  /* Estilos específicos para cada ícone */
+.summary li .iconReaction {
+    background-image: url(./images/icon-reaction.svg);
+    border-radius: 10px;
+}
+  
+.summary li .iconMemory {
+    background-image: url(./images/icon-memory.svg);
+}
+  
+.summary li .iconVerbal {
+    background-image: url(./images/icon-verbal.svg);
+}
+  
+.summary li .iconVisual {
+    background-image: url(./images/icon-visual.svg);
+}
