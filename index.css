@@ -30,7 +30,7 @@ td.result {
 
 div.score {
     border-radius: 50%; /* Use 50% para criar um círculo perfeito */
-    border: 2px solid rgb(188, 177, 177);
+    background-image: linear-gradient(to bottom, rgba(76, 12, 239, 0.9), hsl(228,45%,44%));
     padding: 20px;
     font-family: "Kumbh Sans";
     display: flex;
