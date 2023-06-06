@@ -26,6 +26,7 @@ td.result {
     text-align: center;
     display: flex;
     flex-direction: column;
+    
 }
 
 .score {
@@ -67,12 +68,16 @@ td.result {
     align-items: center;
     justify-content: center;
 }
- /* --------- lado direito da tabela --------- */
+
 .result h1{
-    color: white;
+    color: rgba(223, 222, 215, 0.864);
     font-size: 20px;
     font-family: "Kumbh Sans";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+ /* --------- lado direito da tabela --------- */
+
 .summary h1{
     color: black;
     font-size: 30px;
