@@ -41,7 +41,7 @@ td.result {
     height: 120px;
 }    
 
-div.score a.highlighted{
+.score a.highlighted{
     color: whitesmoke;
     font-size: 70px;
     font-family: "Kumbh Sans";
