@@ -133,6 +133,17 @@ ul {
     height: 20px;
     margin-right: 10px;
 }
+.grade {
+    color:rgba(0, 0, 0);
+    font-size: 16px;
+    font-family: "Kumbh Sans";
+}
+
+.total {
+    color:rgb(125, 123, 123);
+    font-size: 14px;
+    font-family: "Kumbh Sans";
+}
   
   /* Estilos específicos para cada ícone */
 .summary li .iconReaction {
@@ -151,3 +162,36 @@ ul {
 .summary li .iconVisual {
     background-image: url(./images/icon-visual.svg);
 }
+
+.reaction{
+    display: inline-block;
+    background-color: rgb(233, 196, 196);
+    color: rgb(244, 72, 72);
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.memory{
+    display: inline-block;
+    background-color: rgb(228, 226, 196);
+    color: rgb(180, 186, 66);
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.verbal{
+    display: inline-block;
+    background-color: rgb(199, 234, 203);
+    color: rgb(137, 227, 128);
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.visual{
+    display: inline-block;
+    background-color: rgb(194, 211, 232);
+    color: rgb(45, 96, 206);
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
